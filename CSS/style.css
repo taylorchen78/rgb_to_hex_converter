@@ -1,0 +1,85 @@
+body {
+  display: flex;
+	justify-content: center;
+  align-items: center;
+  font-family: 'MicroSoft Jhenghei', sans-serif;
+  margin: 0px
+}
+
+.content {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+	justify-content: center;
+  align-items: center;
+  background-color: black;
+}
+
+.redslider, .greenslider, .blueslider {
+  margin-bottom: 10px;
+}
+
+.slider {
+  width: 30vw;
+  margin: 10px;
+  -webkit-appearance: none;
+  border-radius: 5px;
+  background: grey;
+  height: 10px;
+}
+
+.slider::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background: #d3d3d3;
+  cursor: pointer;
+}
+
+.red, .green, .blue {
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  line-height: 30px;
+  margin: 0px;
+  text-align: center;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+.redvalue, .greenvalue, .bluevalue {
+  display: inline-block;
+  width: 80px;
+  height: 30px;
+  line-height: 30px;
+  margin: 0px;
+  text-align: center;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+.red, .redvalue {
+  background-color: red;
+}
+
+.green, .greenvalue {
+  background-color: green;
+}
+
+.blue, .bluevalue {
+  background-color: blue;
+}
+
+.hexvalue {
+  width: 120px;
+  height: 40px;
+  line-height: 40px;
+  text-align: center;
+  font-size: 24px;
+  font-weight: bold;
+  border-radius: 5px;
+  background-color: rgba(255, 255, 255, 0.5);
+}
